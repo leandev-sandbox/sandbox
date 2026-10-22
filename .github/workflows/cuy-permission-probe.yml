@@ -8,3 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo permission-probe
+# Cuy workflow merge permission probe for otto#322
