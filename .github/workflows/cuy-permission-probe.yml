@@ -1,0 +1,10 @@
+name: Cuy permission probe
+on:
+  workflow_dispatch:
+permissions: {}
+jobs:
+  never:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo permission-probe
