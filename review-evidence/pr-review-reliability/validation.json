@@ -1,0 +1,60 @@
+{
+  "revision": "31635cf8e0ab2f207ab6dc4ab208299dcbbc6b73",
+  "base": "dc1adb4e524cc5c32c165cf66e23c2e1c2220a78",
+  "hashes": {
+    "adapters/pr-review-smoke.ts": "bd4750cef980af0b7008ac27affb932145d21f21612d0205e8b8ebe2bc94090f",
+    "docs/api.md": "1b2ecd6aa465859f456751726012c6eb04522b52cc7bca800b874e860a075b97",
+    "docs/processes/development/architecture.md": "ed568150ac9349219426831523777c2b6b61da449b89e912ea5726138dd2acbc",
+    "docs/verification.md": "cabdc5be9ebeb444e5af28137ef89cc2ade0092a674084cc712fe4610aea82d0",
+    "fixtures/github/refused-pending-review.json": "00999d7e2edfeb4483b8bba169783bfb167828a763e78e6d98c55caef5e49f4c",
+    "fixtures/github/refused-review-batch.json": "e42820ded621b60408efa580c9e0d7aec7ba1aadbe6a4f20834ae5a2512a409e",
+    "fixtures/github/refused-review-identity.json": "256efcf95826c37c940ccdd670ebe758ca1833d95c69b295dc0d551712a9e603",
+    "fixtures/github/request-changes-self-review-errors.json": "357b34caf3cef5986e4b85d88630aae8503805069012985ff8e11c28221fbfa1",
+    "processes/development/control-plane/commands.ts": "42a2d17e25dec160cb3bf894a1dac20b0635dff47b620f73d26d675035aebd37",
+    "processes/development/control-plane/discuss.test.ts": "123e7bbff22da3b732225b2633d4af7b812c3d0eda2c211590ef7631058db5a5",
+    "processes/development/control-plane/discuss.ts": "e0f60ce5abf55144db7bb27d6402ea5301b0dfd202e98421cb317d4be236cb92",
+    "processes/development/control-plane/pages.ts": "83c8c79184d4e6a4342903328752f51735bf76d7af6b4d51d72cedc4fbeb0f43",
+    "processes/development/control-plane/preview.test.ts": "de091db627d3901c2512f7c993c0f7fa47fbc24b0a73491768adc3658bf137a8",
+    "processes/development/control-plane/preview.ts": "7e2cb00677cb698b457bf8713f817c48b482308a80c01d71c3cba6cc36545d99",
+    "processes/development/control-plane/review.test.ts": "6946460c0816085956813bf5e9c6133a1b984eeece08a1f1acd8a5cfa9d0e5bb",
+    "processes/development/control-plane/review.ts": "71c1e19bc6bf6a325f4fde138ce3f01ad4a28eb25d441b15e1b290d4cfef08da",
+    "processes/development/control-plane/terminal.ts": "4ad5b7da071418740d2220040a81b4ebb7fe25ddddfabe22d6afa98474afe87d",
+    "processes/development/lifecycle/review-comments.test.ts": "27cbd55845ec6f6963711d25a83c78f0f60ea4ea09c3ea99bb7470737c244c48",
+    "processes/development/lifecycle/review-comments.ts": "a305036afe9a50285e6b00443913059728d668103f658c425d93c1db33ba04ca",
+    "processes/development/model.ts": "596e0c8fa3b2b13ad8836b90fd275ff1c1a4072fd2326357b521cab7f185c437"
+  },
+  "checks": {
+    "formatLintTypes": "just fix; just check; git diff --check",
+    "tests": "2773 passed, 0 failed; Bun 1.4.2, 138 files"
+  },
+  "localRuntime": "just --set port 8808 dev admission lifecycle",
+  "smokes": [
+    {
+      "id": "pgs55c14a43",
+      "command": "FRESH_BROWSER=1 CHROMIUM='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' just --set port 8808 smoke-pages pr-review-idle pr-review-refused pr-review-layout",
+      "issue": 2595,
+      "pulls": [
+        2596,
+        2597
+      ],
+      "result": "all cases passed",
+      "job": "pgs55c14a43-verification/verify",
+      "attempt": 1
+    },
+    {
+      "id": "pgs7fe25d14",
+      "command": "same environment; just --set port 8808 smoke-pages pr-review-refused",
+      "issue": 2598,
+      "pulls": [
+        2599,
+        2600
+      ],
+      "result": "incomplete: Chromium Runtime.evaluate timed out; refusal checks passed; Ignore applied in recorded command journal; no later UI assertion or reload proof claimed",
+      "job": "pgs7fe25d14-verification/verify",
+      "attempt": 1
+    }
+  ],
+  "provenance": "Both runs used dc1adb4 plus the committed runtime file overlays. The repeat only added review-comments.ts to provenance metadata and clarified its source label; runtime files match the complete passing run. Full hashes retained here supplement that run’s metadata.",
+  "limits": "Local Workers/D1 and actual sandbox GitHub writes. Visibility was simulated through document properties/events; viewport emulation, no physical phone. No native runner, Docker, Feature, model call or model spend in these cases. Successful native fixing/Discuss not rerun by this follow-up.",
+  "cleanup": "All three smoke fixtures (including earlier pgs836b0251) cleaned: sandbox subjects closed, fixture branches/sessions/D1 rows/outbox/eight media objects per fixture removed. Refused-case owned pending reviews removed by final-case cleanup. Earlier closed PR2593 checked with development App: no matching pending review remained. Task Delivery project193 deleted; task Worker stopped after cleanup. Evidence branch intentionally retained for review."
+}

@@ -1,0 +1,641 @@
+{
+  "case": "pr-review-layout",
+  "source": "seeded local presentation fixture; no provider invoked",
+  "head": "7c71d6c97d0fadea01b7fed983e5e6acda4c0233",
+  "job": "pgs55c14a43-verification/verify",
+  "startedAt": 1793847614499,
+  "sourceRevision": "dc1adb4e524cc5c32c165cf66e23c2e1c2220a78",
+  "overlays": {
+    "adapters/cloudflare.ts": "3b380c2158a729daa106372bfba9b93120a93e91b110c52ad99933c8f5be7bcc",
+    "adapters/pr-review-smoke.ts": "b7d15ec1711206b4f5c74d6255729fd76de05fa208ea1c7eb30978598b7aab56",
+    "adapters/verification-smoke.ts": "d806be908e19ab45ffcae50a05bbb61e1c3db6aee16a538ee32c0a081ae3bd12",
+    "processes/development/model.ts": "596e0c8fa3b2b13ad8836b90fd275ff1c1a4072fd2326357b521cab7f185c437",
+    "processes/development/control-plane/index.ts": "2513472dc594cc6b5333f4939c91d0a8a4266a53a8048b05a288c4b278e9579c",
+    "processes/development/control-plane/markdown.ts": "99d326140206921cd725f483a8e14357c63d23b7248d6ae8ebe42976003c0455",
+    "migrations/development/0020_markdown.sql": "e3f463ff5b084b32e86d7729ca5be840d8b68fe5d50ab8606533a0aa572f1e88",
+    "processes/development/control-plane/pages.ts": "83c8c79184d4e6a4342903328752f51735bf76d7af6b4d51d72cedc4fbeb0f43",
+    "processes/development/control-plane/commands.ts": "42a2d17e25dec160cb3bf894a1dac20b0635dff47b620f73d26d675035aebd37",
+    "processes/development/control-plane/drafts.ts": "5a6c685790b03eb4999444109f880ec725273e19dd4f2b692465d9b193b80ebf",
+    "processes/development/control-plane/review.ts": "71c1e19bc6bf6a325f4fde138ce3f01ad4a28eb25d441b15e1b290d4cfef08da",
+    "processes/development/control-plane/preview.ts": "7e2cb00677cb698b457bf8713f817c48b482308a80c01d71c3cba6cc36545d99",
+    "processes/development/control-plane/terminal.ts": "4ad5b7da071418740d2220040a81b4ebb7fe25ddddfabe22d6afa98474afe87d",
+    "processes/development/control-plane/discuss.ts": "e0f60ce5abf55144db7bb27d6402ea5301b0dfd202e98421cb317d4be236cb92",
+    "processes/development/evidence/index.ts": "5bd3b1c972e6bb1b5000c5da0990f4bdf02d4e9fc030d33b843ac5a184d6a332",
+    "processes/development/environment/discussions.ts": "8992b1b41beb804480fc2fe961886d7051e1a3bf2683813ef54941aa8c6fc384",
+    "processes/development/environment/sessions.ts": "25338a5816172be87f311f2ba15ea827125d5ba8bb9f6b7ec1fa6e818f151a82",
+    "processes/development/lifecycle/discussion.ts": "18e37626463d8e7174e069b0e3b67595baf37ac5c194fb18b685d64da10408e1",
+    "processes/development/lifecycle/review.ts": "b0620e80145ca66232e283257f7c92b256d4b132ea7fd8db5da1f6319270cc37",
+    "processes/development/lifecycle/steps.ts": "a5693478ba18f84646038935699499dd6002f56b4da9fe8164d7ec31d0fcf62b"
+  },
+  "screenshots": [
+    "pr-review-layout-1280.png",
+    "pr-review-layout-390.png"
+  ],
+  "finishedAt": 1793847620463,
+  "assertions": [
+    {
+      "label": "pr-review-layout: 1280px one set of counts named as their sections",
+      "ok": true,
+      "detail": "2 verified by Cuy · 1 failed · 2 to try yourself"
+    },
+    {
+      "label": "pr-review-layout: 1280px no review status line or record links",
+      "ok": true,
+      "detail": {
+        "counts": "2 verified by Cuy · 1 failed · 2 to try yourself",
+        "status": false,
+        "links": false,
+        "risks": 0,
+        "tags": [
+          "Failed · V2",
+          "Bug · confirmed · finding_0",
+          "Fix before merge · Certainty: Unsure · finding_2",
+          "Try it yourself · V3",
+          "Try it yourself · Cuy couldn't verify it · V4",
+          "Follow-up · finding_1"
+        ],
+        "tries": [
+          {
+            "labels": [
+              "Works",
+              "Didn't try",
+              "Explain this",
+              "Discuss"
+            ],
+            "rows": 1,
+            "bordered": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "labels": [
+              "Works",
+              "Didn't try",
+              "Explain this",
+              "Discuss"
+            ],
+            "rows": 1,
+            "bordered": [
+              true,
+              true,
+              false,
+              false
+            ]
+          }
+        ],
+        "verifiedOpen": false,
+        "verified": [
+          "V1 ·Positioned browser checks",
+          "drift ·The change's recipes and toolchain resolve under the default branch's policy"
+        ],
+        "follow": {
+          "title": "Seeded follow-up issue",
+          "body": "Seeded Likely finding",
+          "draft": false
+        },
+        "rows": [
+          {
+            "tag": "Failed · V2",
+            "title": "Failure and media states",
+            "lead": "Reason V2",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsObserved V2"
+          },
+          {
+            "tag": "Bug · confirmed · finding_0",
+            "title": "Seeded Sure title",
+            "lead": "Seeded Sure finding",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsProducer evidence 0 Review summary Seeded Sure comment"
+          },
+          {
+            "tag": "Fix before merge · Certainty: Unsure · finding_2",
+            "title": "Seeded Unsure finding",
+            "lead": "Fix before merge · Certainty: Unsure · finding_2 Seeded Unsure finding Details Fix Follow-up Ignore Explain this Discuss",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsProducer evidence 2 Review summary Seeded Unsure comment"
+          },
+          {
+            "tag": "Try it yourself · V3",
+            "title": "Human judgment",
+            "lead": "Reason V3 Try it: Open each cited chapter",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsTaste is a person's judgment Judge the appearance"
+          },
+          {
+            "tag": "Try it yourself · Cuy couldn't verify it · V4",
+            "title": "Technical limitation",
+            "lead": "Reason V4 Try it: Open each cited chapter",
+            "details": false,
+            "open": false,
+            "hidden": ""
+          },
+          {
+            "tag": "Follow-up · finding_1",
+            "title": "Seeded follow-up issue",
+            "lead": "Seeded Likely finding",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsProducer evidence 1 Review summary"
+          }
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "label": "pr-review-layout: 1280px no risk row or count",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "label": "pr-review-layout: 1280px row tags say Failed and Try it yourself",
+      "ok": true,
+      "detail": [
+        "Failed · V2",
+        "Bug · confirmed · finding_0",
+        "Fix before merge · Certainty: Unsure · finding_2",
+        "Try it yourself · V3",
+        "Try it yourself · Cuy couldn't verify it · V4",
+        "Follow-up · finding_1"
+      ]
+    },
+    {
+      "label": "pr-review-layout: 1280px a try-it row is Works, Didn't try, Explain this, Discuss on one row, answers bordered",
+      "ok": true,
+      "detail": [
+        {
+          "labels": [
+            "Works",
+            "Didn't try",
+            "Explain this",
+            "Discuss"
+          ],
+          "rows": 1,
+          "bordered": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "labels": [
+            "Works",
+            "Didn't try",
+            "Explain this",
+            "Discuss"
+          ],
+          "rows": 1,
+          "bordered": [
+            true,
+            true,
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "label": "pr-review-layout: 1280px Verified by Cuy collapsed, one V<n> · description line per check",
+      "ok": true,
+      "detail": [
+        "V1 ·Positioned browser checks",
+        "drift ·The change's recipes and toolchain resolve under the default branch's policy"
+      ]
+    },
+    {
+      "label": "pr-review-layout: 1280px the follow-up is titled by its draft issue, its reason as body, its draft body out",
+      "ok": true,
+      "detail": {
+        "title": "Seeded follow-up issue",
+        "body": "Seeded Likely finding",
+        "draft": false
+      }
+    },
+    {
+      "label": "pr-review-layout: 1280px a current finding reads tag, title, reason, its evidence and location in collapsed Details",
+      "ok": true,
+      "detail": {
+        "tag": "Bug · confirmed · finding_0",
+        "title": "Seeded Sure title",
+        "lead": "Seeded Sure finding",
+        "details": true,
+        "open": false,
+        "hidden": "DetailsProducer evidence 0 Review summary Seeded Sure comment"
+      }
+    },
+    {
+      "label": "pr-review-layout: 1280px an older brief's finding keeps its label, its rationale as title",
+      "ok": true,
+      "detail": {
+        "tag": "Fix before merge · Certainty: Unsure · finding_2",
+        "title": "Seeded Unsure finding",
+        "lead": "Fix before merge · Certainty: Unsure · finding_2 Seeded Unsure finding Details Fix Follow-up Ignore Explain this Discuss",
+        "details": true,
+        "open": false,
+        "hidden": "DetailsProducer evidence 2 Review summary Seeded Unsure comment"
+      }
+    },
+    {
+      "label": "pr-review-layout: 1280px every check row keeps its detail collapsed",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "Failed · V2",
+          "title": "Failure and media states",
+          "lead": "Reason V2",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsObserved V2"
+        },
+        {
+          "tag": "Bug · confirmed · finding_0",
+          "title": "Seeded Sure title",
+          "lead": "Seeded Sure finding",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsProducer evidence 0 Review summary Seeded Sure comment"
+        },
+        {
+          "tag": "Fix before merge · Certainty: Unsure · finding_2",
+          "title": "Seeded Unsure finding",
+          "lead": "Fix before merge · Certainty: Unsure · finding_2 Seeded Unsure finding Details Fix Follow-up Ignore Explain this Discuss",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsProducer evidence 2 Review summary Seeded Unsure comment"
+        },
+        {
+          "tag": "Try it yourself · V3",
+          "title": "Human judgment",
+          "lead": "Reason V3 Try it: Open each cited chapter",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsTaste is a person's judgment Judge the appearance"
+        },
+        {
+          "tag": "Try it yourself · Cuy couldn't verify it · V4",
+          "title": "Technical limitation",
+          "lead": "Reason V4 Try it: Open each cited chapter",
+          "details": false,
+          "open": false,
+          "hidden": ""
+        },
+        {
+          "tag": "Follow-up · finding_1",
+          "title": "Seeded follow-up issue",
+          "lead": "Seeded Likely finding",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsProducer evidence 1 Review summary"
+        }
+      ]
+    },
+    {
+      "label": "pr-review-layout: 1280px no horizontal scroll",
+      "ok": true
+    },
+    {
+      "label": "pr-review-layout: 390px one set of counts named as their sections",
+      "ok": true,
+      "detail": "2 verified by Cuy · 1 failed · 2 to try yourself"
+    },
+    {
+      "label": "pr-review-layout: 390px no review status line or record links",
+      "ok": true,
+      "detail": {
+        "counts": "2 verified by Cuy · 1 failed · 2 to try yourself",
+        "status": false,
+        "links": false,
+        "risks": 0,
+        "tags": [
+          "Failed · V2",
+          "Bug · confirmed · finding_0",
+          "Fix before merge · Certainty: Unsure · finding_2",
+          "Try it yourself · V3",
+          "Try it yourself · Cuy couldn't verify it · V4",
+          "Follow-up · finding_1"
+        ],
+        "tries": [
+          {
+            "labels": [
+              "Works",
+              "Didn't try",
+              "Explain this",
+              "Discuss"
+            ],
+            "rows": 1,
+            "bordered": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "labels": [
+              "Works",
+              "Didn't try",
+              "Explain this",
+              "Discuss"
+            ],
+            "rows": 1,
+            "bordered": [
+              true,
+              true,
+              false,
+              false
+            ]
+          }
+        ],
+        "verifiedOpen": false,
+        "verified": [
+          "V1 ·Positioned browser checks",
+          "drift ·The change's recipes and toolchain resolve under the default branch's policy"
+        ],
+        "follow": {
+          "title": "Seeded follow-up issue",
+          "body": "Seeded Likely finding",
+          "draft": false
+        },
+        "rows": [
+          {
+            "tag": "Failed · V2",
+            "title": "Failure and media states",
+            "lead": "Reason V2",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsObserved V2"
+          },
+          {
+            "tag": "Bug · confirmed · finding_0",
+            "title": "Seeded Sure title",
+            "lead": "Seeded Sure finding",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsProducer evidence 0 Review summary Seeded Sure comment"
+          },
+          {
+            "tag": "Fix before merge · Certainty: Unsure · finding_2",
+            "title": "Seeded Unsure finding",
+            "lead": "Fix before merge · Certainty: Unsure · finding_2 Seeded Unsure finding Details Fix Follow-up Ignore Explain this Discuss",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsProducer evidence 2 Review summary Seeded Unsure comment"
+          },
+          {
+            "tag": "Try it yourself · V3",
+            "title": "Human judgment",
+            "lead": "Reason V3 Try it: Open each cited chapter",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsTaste is a person's judgment Judge the appearance"
+          },
+          {
+            "tag": "Try it yourself · Cuy couldn't verify it · V4",
+            "title": "Technical limitation",
+            "lead": "Reason V4 Try it: Open each cited chapter",
+            "details": false,
+            "open": false,
+            "hidden": ""
+          },
+          {
+            "tag": "Follow-up · finding_1",
+            "title": "Seeded follow-up issue",
+            "lead": "Seeded Likely finding",
+            "details": true,
+            "open": false,
+            "hidden": "DetailsProducer evidence 1 Review summary"
+          }
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "label": "pr-review-layout: 390px no risk row or count",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "label": "pr-review-layout: 390px row tags say Failed and Try it yourself",
+      "ok": true,
+      "detail": [
+        "Failed · V2",
+        "Bug · confirmed · finding_0",
+        "Fix before merge · Certainty: Unsure · finding_2",
+        "Try it yourself · V3",
+        "Try it yourself · Cuy couldn't verify it · V4",
+        "Follow-up · finding_1"
+      ]
+    },
+    {
+      "label": "pr-review-layout: 390px a try-it row is Works, Didn't try, Explain this, Discuss on one row, answers bordered",
+      "ok": true,
+      "detail": [
+        {
+          "labels": [
+            "Works",
+            "Didn't try",
+            "Explain this",
+            "Discuss"
+          ],
+          "rows": 1,
+          "bordered": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "labels": [
+            "Works",
+            "Didn't try",
+            "Explain this",
+            "Discuss"
+          ],
+          "rows": 1,
+          "bordered": [
+            true,
+            true,
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "label": "pr-review-layout: 390px Verified by Cuy collapsed, one V<n> · description line per check",
+      "ok": true,
+      "detail": [
+        "V1 ·Positioned browser checks",
+        "drift ·The change's recipes and toolchain resolve under the default branch's policy"
+      ]
+    },
+    {
+      "label": "pr-review-layout: 390px the follow-up is titled by its draft issue, its reason as body, its draft body out",
+      "ok": true,
+      "detail": {
+        "title": "Seeded follow-up issue",
+        "body": "Seeded Likely finding",
+        "draft": false
+      }
+    },
+    {
+      "label": "pr-review-layout: 390px a current finding reads tag, title, reason, its evidence and location in collapsed Details",
+      "ok": true,
+      "detail": {
+        "tag": "Bug · confirmed · finding_0",
+        "title": "Seeded Sure title",
+        "lead": "Seeded Sure finding",
+        "details": true,
+        "open": false,
+        "hidden": "DetailsProducer evidence 0 Review summary Seeded Sure comment"
+      }
+    },
+    {
+      "label": "pr-review-layout: 390px an older brief's finding keeps its label, its rationale as title",
+      "ok": true,
+      "detail": {
+        "tag": "Fix before merge · Certainty: Unsure · finding_2",
+        "title": "Seeded Unsure finding",
+        "lead": "Fix before merge · Certainty: Unsure · finding_2 Seeded Unsure finding Details Fix Follow-up Ignore Explain this Discuss",
+        "details": true,
+        "open": false,
+        "hidden": "DetailsProducer evidence 2 Review summary Seeded Unsure comment"
+      }
+    },
+    {
+      "label": "pr-review-layout: 390px every check row keeps its detail collapsed",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "Failed · V2",
+          "title": "Failure and media states",
+          "lead": "Reason V2",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsObserved V2"
+        },
+        {
+          "tag": "Bug · confirmed · finding_0",
+          "title": "Seeded Sure title",
+          "lead": "Seeded Sure finding",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsProducer evidence 0 Review summary Seeded Sure comment"
+        },
+        {
+          "tag": "Fix before merge · Certainty: Unsure · finding_2",
+          "title": "Seeded Unsure finding",
+          "lead": "Fix before merge · Certainty: Unsure · finding_2 Seeded Unsure finding Details Fix Follow-up Ignore Explain this Discuss",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsProducer evidence 2 Review summary Seeded Unsure comment"
+        },
+        {
+          "tag": "Try it yourself · V3",
+          "title": "Human judgment",
+          "lead": "Reason V3 Try it: Open each cited chapter",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsTaste is a person's judgment Judge the appearance"
+        },
+        {
+          "tag": "Try it yourself · Cuy couldn't verify it · V4",
+          "title": "Technical limitation",
+          "lead": "Reason V4 Try it: Open each cited chapter",
+          "details": false,
+          "open": false,
+          "hidden": ""
+        },
+        {
+          "tag": "Follow-up · finding_1",
+          "title": "Seeded follow-up issue",
+          "lead": "Seeded Likely finding",
+          "details": true,
+          "open": false,
+          "hidden": "DetailsProducer evidence 1 Review summary"
+        }
+      ]
+    },
+    {
+      "label": "pr-review-layout: 390px no horizontal scroll",
+      "ok": true
+    },
+    {
+      "label": "pr-review-layout: the count opens Verified by Cuy, a check opens its observation",
+      "ok": true,
+      "detail": {
+        "open": true,
+        "observation": true
+      }
+    },
+    {
+      "label": "pr-review-layout: a brief with risks asks nothing of them",
+      "ok": true,
+      "detail": [
+        [
+          "finding_0",
+          "fix"
+        ],
+        [
+          "finding_1",
+          "follow_up"
+        ],
+        [
+          "finding_2",
+          "fix"
+        ],
+        [
+          "V2",
+          "failed_check"
+        ],
+        [
+          "V3",
+          "human_check"
+        ],
+        [
+          "V4",
+          "human_check"
+        ]
+      ]
+    },
+    {
+      "label": "pr-review-layout: original raw verification rows unchanged",
+      "ok": true
+    }
+  ],
+  "commands": [
+    {
+      "command_id": "0841f3ce-af29-47d7-bda2-6c679801036f",
+      "action": "answer",
+      "actor": "member",
+      "via": "page",
+      "outcome": "applied",
+      "reason": null
+    },
+    {
+      "command_id": "f87cc4c7-4d9d-40bd-a96e-f292918b609e",
+      "action": "answer",
+      "actor": "member",
+      "via": "page",
+      "outcome": "applied",
+      "reason": null
+    },
+    {
+      "command_id": "0841f3ce-af29-47d7-bda2-6c679801036f-send",
+      "action": "request_changes",
+      "actor": "member",
+      "via": "page",
+      "outcome": "rejected",
+      "reason": "GitHub refused the review: Could not request_changes for pull request review. Can not request changes on your own pull request"
+    }
+  ]
+}
