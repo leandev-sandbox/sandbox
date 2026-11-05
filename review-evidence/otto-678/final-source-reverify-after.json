@@ -1,0 +1,42 @@
+{
+  "issue_id": "I_kwDOVUMJ0s8AAAABcmFv6w",
+  "phase": "in_review",
+  "revision": 55,
+  "pr_head": "07c90045c0ac17ace72dd622b3653d019992687d",
+  "briefSha256": "86090aeb991efa1a2b3d526732c5c95f2b51fc7fa2bd9af54920f07af76c9a64",
+  "verification": {
+    "head": "07c90045c0ac17ace72dd622b3653d019992687d",
+    "plan": {
+      "id": "implementation I_kwDOVUMJ0s8AAAABcmFv6w/1/4 16 0 plan",
+      "digest": "e0f40223653267a87a3dd4671380115b3ee9698744effb5f29cf2df42aee5b85"
+    },
+    "corrections": 0,
+    "recoveries": 0,
+    "allowances": {},
+    "execution": "implementation I_kwDOVUMJ0s8AAAABcmFv6w/1/4 41 0 verify",
+    "checks": [],
+    "request": "1468d390-c88c-4474-bb00-5c641e891cb2",
+    "status": "completed"
+  },
+  "stage": "reviewed",
+  "commands": [
+    {
+      "command_id": "af6cf6be-e22c-490f-8bde-5d037194763e",
+      "action": "reverify",
+      "outcome": "applied",
+      "reason": null
+    },
+    {
+      "command_id": "1468d390-c88c-4474-bb00-5c641e891cb2",
+      "action": "reverify",
+      "outcome": "applied",
+      "reason": null
+    },
+    {
+      "command_id": "5d16ef46-1165-4a8a-8ff5-8bef1f7e61d2",
+      "action": "reverify",
+      "outcome": "rejected",
+      "reason": "the item moved from revision 45 to 50"
+    }
+  ]
+}

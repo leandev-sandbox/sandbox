@@ -1,0 +1,1011 @@
+{
+  "name": "review-panel-immediate",
+  "smoke": "f6b72d7d",
+  "sourceRevision": "456568d4a27f698cfb7f5fbeea2f90bb98c73b87",
+  "overlays": {
+    "adapters/lifecycle-smoke.ts": "f3130eeb81b7e9397dc2ced37cb5fcb5f4e525417cd81b446fdab0f6ce27acae",
+    "adapters/cloudflare.ts": "a7986d5c9e557c4008cd3bb478f27ea4e8ef25e45a1f25e1d3ba99d3dbd04b85",
+    "processes/development/control-plane/pages.ts": "2af1114bf16f205784e1e450bcdbb3bb57c9af4874eb24ca1853c1808294aeea",
+    "processes/development/control-plane/review.ts": "27999df96f56909c2c3d64fe98d8363609fa74849f8212ea7bf49d231ab4a127",
+    "processes/development/control-plane/commands.ts": "e37ca7955e7dd38ea04788b7058df60885a76f24645c49019ec5adcee11bd2d9",
+    "processes/development/control-plane/discuss.ts": "fe05d268f09634359dfe80c4fae1ee7098f3a565dc78060a33736ac714be6d96",
+    "processes/development/model.ts": "45808ed48dd596ad87951d68f5f385fce2c7498333df705661d100c5815811c5",
+    "processes/development/evidence/index.ts": "5bd3b1c972e6bb1b5000c5da0990f4bdf02d4e9fc030d33b843ac5a184d6a332",
+    "processes/development/environment/discussions.ts": "8992b1b41beb804480fc2fe961886d7051e1a3bf2683813ef54941aa8c6fc384",
+    "processes/development/environment/sessions.ts": "25338a5816172be87f311f2ba15ea827125d5ba8bb9f6b7ec1fa6e818f151a82",
+    "processes/development/lifecycle/discussion.ts": "18e37626463d8e7174e069b0e3b67595baf37ac5c194fb18b685d64da10408e1",
+    "processes/development/lifecycle/review.ts": "b0620e80145ca66232e283257f7c92b256d4b132ea7fd8db5da1f6319270cc37"
+  },
+  "feature": "ghcr.io/leandev-ai/otto-features/agents@sha256:86bc866dd6f36fc9e382ad4bc064df3db418ac8fab92683c24e9cd7263123958",
+  "issue": {
+    "number": 1465,
+    "node": "I_kwDOVUMJ0s8AAAABcmFv6w",
+    "id": 6213955563,
+    "repo": "leandev-sandbox/otto-environment-fixture"
+  },
+  "pr": 1466,
+  "elapsedMs": 211300,
+  "observed": [
+    {
+      "sourceRevision": "456568d4a27f698cfb7f5fbeea2f90bb98c73b87",
+      "feature": "ghcr.io/leandev-ai/otto-features/agents@sha256:86bc866dd6f36fc9e382ad4bc064df3db418ac8fab92683c24e9cd7263123958",
+      "overlays": {
+        "adapters/cloudflare.ts": "a7986d5c9e557c4008cd3bb478f27ea4e8ef25e45a1f25e1d3ba99d3dbd04b85",
+        "adapters/lifecycle-smoke.ts": "f3130eeb81b7e9397dc2ced37cb5fcb5f4e525417cd81b446fdab0f6ce27acae",
+        "adapters/pr-review-smoke.ts": "cbb3dd82b36544b129a6f15bce1ce2b40e7198ffbfac2ddfa95b6ee2f6151b54",
+        "docs/api.md": "1156e639fad499cd99b003388bf11f9333bf3a7c905ae651cbe47ce52399276f",
+        "docs/processes/development/architecture.md": "5e530eed045d311b7827aa58940477d16862201aee94fa2f09c2ec1f695a6da3",
+        "docs/verification.md": "de707ae5d31494139b015541746bc560f2decf81a06d311a00c2d4e6bed473ef",
+        "processes/development/control-plane/commands.ts": "e37ca7955e7dd38ea04788b7058df60885a76f24645c49019ec5adcee11bd2d9",
+        "processes/development/control-plane/discuss.test.ts": "9fe10d845d51afb16e7044a0080818af357619b053308f65bfb71d70270cefbe",
+        "processes/development/control-plane/discuss.ts": "fe05d268f09634359dfe80c4fae1ee7098f3a565dc78060a33736ac714be6d96",
+        "processes/development/control-plane/drafts.ts": "2adf0466733cc5a69e5980527f03e44db9e44642e104fff8102156f0068251d1",
+        "processes/development/control-plane/follow.ts": "1dd5a2b4ee631f464a2da3b97bbb47f63e02888161581e8f1110d648ac4d6222",
+        "processes/development/control-plane/index.ts": "091b29d61b6a3a965a8cbbfe7a25b4cdcab1c40ec0b62be64a46c366cbd132a8",
+        "processes/development/control-plane/pages.test.ts": "1e9e4c3968de812f18f62107b08b46291f127bec31a75b034edb8e97ac7e7091",
+        "processes/development/control-plane/pages.ts": "2af1114bf16f205784e1e450bcdbb3bb57c9af4874eb24ca1853c1808294aeea",
+        "processes/development/control-plane/review.ts": "27999df96f56909c2c3d64fe98d8363609fa74849f8212ea7bf49d231ab4a127",
+        "processes/development/lifecycle/approval.test.ts": "098c2fbd78f1b30bfa063cbb4a9fc87c751bfd9827bcb730417e267e7298aa23",
+        "processes/development/lifecycle/discussion-actions.ts": "1308d9ea9dde4d87d078ff90a30ebd840364342780617520785bbab96cf56a17",
+        "processes/development/lifecycle/steps.ts": "a5693478ba18f84646038935699499dd6002f56b4da9fe8164d7ec31d0fcf62b",
+        "processes/development/lifecycle/verification.ts": "94772cc1c4143dfc7bb5df2c690b7828c441b0bb46f285da2aa1bc1bda715fc6",
+        "processes/development/model.ts": "45808ed48dd596ad87951d68f5f385fce2c7498333df705661d100c5815811c5",
+        "processes/development/prompts/address-feedback.md": "d7926f72027352c2cfb00e4bc83c705a97fd078e6861f439d239784a8f53e28b"
+      }
+    },
+    {
+      "discussionControl": {
+        "phase": "in_review",
+        "readonly": "false",
+        "connected": "true"
+      }
+    },
+    {
+      "questionNote": "Sent to Discuss."
+    },
+    {
+      "discussionAbandonedAfterQuestions": true
+    },
+    {
+      "reviewBodyComment": 5777965278
+    },
+    {
+      "conversationComment": {
+        "url": "https://api.github.com/repos/leandev-sandbox/otto-environment-fixture/issues/comments/6646063913",
+        "html_url": "https://github.com/leandev-sandbox/otto-environment-fixture/pull/1466#issuecomment-6646063913",
+        "issue_url": "https://api.github.com/repos/leandev-sandbox/otto-environment-fixture/issues/1466",
+        "id": 6646063913,
+        "node_id": "IC_kwDOVUMJ0s8AAAABjCLjKQ",
+        "user": {
+          "login": "otto-dev-user",
+          "id": 346640237,
+          "node_id": "U_kgDOFKlPbQ",
+          "avatar_url": "https://avatars.githubusercontent.com/u/346640237?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/otto-dev-user",
+          "html_url": "https://github.com/otto-dev-user",
+          "followers_url": "https://api.github.com/users/otto-dev-user/followers",
+          "following_url": "https://api.github.com/users/otto-dev-user/following{/other_user}",
+          "gists_url": "https://api.github.com/users/otto-dev-user/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/otto-dev-user/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/otto-dev-user/subscriptions",
+          "organizations_url": "https://api.github.com/users/otto-dev-user/orgs",
+          "repos_url": "https://api.github.com/users/otto-dev-user/repos",
+          "events_url": "https://api.github.com/users/otto-dev-user/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/otto-dev-user/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-11-05T00:24:38Z",
+        "updated_at": "2026-11-05T00:24:38Z",
+        "author_association": "MEMBER",
+        "body": "Smoke f6b72d7d: acknowledge this conversation comment briefly; change nothing for it.",
+        "reactions": {
+          "url": "https://api.github.com/repos/leandev-sandbox/otto-environment-fixture/issues/comments/6646063913/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null,
+        "minimized": null,
+        "pin": null
+      }
+    }
+  ],
+  "view": {
+    "issueId": "I_kwDOVUMJ0s8AAAABcmFv6w",
+    "pullListings": [],
+    "review": {
+      "head": "07c90045c0ac17ace72dd622b3653d019992687d",
+      "current": true,
+      "items": [
+        {
+          "pr": 1466,
+          "id": "immediate_one",
+          "kind": "fix",
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+          "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+          "title": "Update the marker",
+          "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+          "source": {
+            "id": "immediate_one",
+            "title": "Update the marker",
+            "body": "The marker needs its requested revision.",
+            "draft": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+            "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+            "classification": "fix",
+            "nature": "bug",
+            "certainty": "Sure",
+            "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+            "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+            "content": {
+              "comment": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+              "location": {
+                "kind": "inline",
+                "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                "line": 1,
+                "side": "RIGHT",
+                "reason": null
+              }
+            }
+          },
+          "location": null,
+          "execution": null,
+          "recorded": null,
+          "answer": {
+            "item": "immediate_one",
+            "kind": "fix",
+            "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+            "value": "add_to_review",
+            "note": null,
+            "actor": "member",
+            "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+            "command": "c83d58df-653e-4ecf-850c-a7fa54b77fba",
+            "via": "page",
+            "at": 1793838266790,
+            "judged": {
+              "pr": 1466,
+              "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+              "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+              "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+              "execution": null,
+              "source": {
+                "pr": 1466,
+                "id": "immediate_one",
+                "kind": "fix",
+                "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+                "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+                "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+                "title": "Update the marker",
+                "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+                "source": {
+                  "id": "immediate_one",
+                  "title": "Update the marker",
+                  "body": "The marker needs its requested revision.",
+                  "draft": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+                  "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+                  "classification": "fix",
+                  "nature": "bug",
+                  "certainty": "Sure",
+                  "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+                  "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+                  "content": {
+                    "comment": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+                    "location": {
+                      "kind": "inline",
+                      "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                      "line": 1,
+                      "side": "RIGHT",
+                      "reason": null
+                    }
+                  }
+                },
+                "location": null,
+                "execution": null,
+                "recorded": null
+              },
+              "plan": null
+            }
+          },
+          "stale": false
+        },
+        {
+          "pr": 1466,
+          "id": "immediate_two",
+          "kind": "fix",
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+          "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+          "title": "Record the review",
+          "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+          "source": {
+            "id": "immediate_two",
+            "title": "Record the review",
+            "body": "The marker needs its review line.",
+            "draft": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+            "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+            "classification": "fix",
+            "nature": "bug",
+            "certainty": "Sure",
+            "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+            "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+            "content": {
+              "comment": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+              "location": {
+                "kind": "inline",
+                "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                "line": 1,
+                "side": "RIGHT",
+                "reason": null
+              }
+            }
+          },
+          "location": null,
+          "execution": null,
+          "recorded": null,
+          "answer": {
+            "item": "immediate_two",
+            "kind": "fix",
+            "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+            "value": "add_to_review",
+            "note": null,
+            "actor": "member",
+            "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+            "command": "7b1aef86-d393-4795-8dc4-be1fca9d3b06",
+            "via": "page",
+            "at": 1793838256670,
+            "judged": {
+              "pr": 1466,
+              "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+              "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+              "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+              "execution": null,
+              "source": {
+                "pr": 1466,
+                "id": "immediate_two",
+                "kind": "fix",
+                "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+                "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+                "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+                "title": "Record the review",
+                "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+                "source": {
+                  "id": "immediate_two",
+                  "title": "Record the review",
+                  "body": "The marker needs its review line.",
+                  "draft": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+                  "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+                  "classification": "fix",
+                  "nature": "bug",
+                  "certainty": "Sure",
+                  "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+                  "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+                  "content": {
+                    "comment": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+                    "location": {
+                      "kind": "inline",
+                      "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                      "line": 1,
+                      "side": "RIGHT",
+                      "reason": null
+                    }
+                  }
+                },
+                "location": null,
+                "execution": null,
+                "recorded": null
+              },
+              "plan": null
+            }
+          },
+          "stale": false
+        },
+        {
+          "pr": 1466,
+          "id": "immediate_ignore",
+          "kind": "fix",
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+          "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+          "title": "Optional wording",
+          "body": "Do not implement this optional wording change.",
+          "source": {
+            "id": "immediate_ignore",
+            "title": "Optional wording",
+            "body": "A deliberate ignored fixture.",
+            "draft": "Do not implement this optional wording change.",
+            "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+            "classification": "fix",
+            "nature": "bug",
+            "certainty": "Sure",
+            "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+            "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+            "content": {
+              "comment": "Do not implement this optional wording change.",
+              "location": {
+                "kind": "inline",
+                "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                "line": 1,
+                "side": "RIGHT",
+                "reason": null
+              }
+            }
+          },
+          "location": null,
+          "execution": null,
+          "recorded": null,
+          "answer": {
+            "item": "immediate_ignore",
+            "kind": "fix",
+            "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+            "value": "ignore",
+            "note": null,
+            "actor": "member",
+            "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+            "command": "49b070b8-d173-4202-902c-17afe76698e2",
+            "via": "page",
+            "at": 1793838273636,
+            "judged": {
+              "pr": 1466,
+              "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+              "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+              "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+              "execution": null,
+              "source": {
+                "pr": 1466,
+                "id": "immediate_ignore",
+                "kind": "fix",
+                "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+                "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+                "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+                "title": "Optional wording",
+                "body": "Do not implement this optional wording change.",
+                "source": {
+                  "id": "immediate_ignore",
+                  "title": "Optional wording",
+                  "body": "A deliberate ignored fixture.",
+                  "draft": "Do not implement this optional wording change.",
+                  "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+                  "classification": "fix",
+                  "nature": "bug",
+                  "certainty": "Sure",
+                  "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+                  "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+                  "content": {
+                    "comment": "Do not implement this optional wording change.",
+                    "location": {
+                      "kind": "inline",
+                      "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                      "line": 1,
+                      "side": "RIGHT",
+                      "reason": null
+                    }
+                  }
+                },
+                "location": null,
+                "execution": null,
+                "recorded": null
+              },
+              "plan": null
+            }
+          },
+          "stale": false
+        },
+        {
+          "pr": 1466,
+          "id": "V2",
+          "kind": "human_check",
+          "subject": "07c90045c0ac17ace72dd622b3653d019992687d/checks/lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/verification I_kwDOVUMJ0s8AAAABcmFv6w/1/4 35 0 0 07c90045c0ac17ace72dd622b3653d019992687d verify 0/1",
+          "digest": "7f38a3d044160f71ddb6cea3b9b118e24d0b117b30050a9c91854f77a8cec96f",
+          "head": "07c90045c0ac17ace72dd622b3653d019992687d",
+          "title": "Judge whether the marker wording is clear",
+          "body": "Read `notes/feedback-review-panel-immediate-f6b72d7d.txt` and inspected its bytes; it contains `FIXED-f6b72d7d` followed by `REVIEWED-f6b72d7d`, both newline-terminated. The requested clarity judgment is subjective and remains for a person.",
+          "source": {
+            "id": "V2",
+            "digest": "2d5319681e9da57aee1b31ed7a028b15937da432187b7b5c8b28d30635a9c596",
+            "description": "Judge whether the marker wording is clear",
+            "surface": "cli",
+            "evidenceRequirement": "command_output",
+            "result": "not_verified",
+            "source": "agent",
+            "body": "A person must judge whether the marker wording is clear. **Try it:** 1. Read the two marker lines in the preview. 2. Record whether their wording is clear. **You should see:** The marker lines `FIXED-f6b72d7d` and `REVIEWED-f6b72d7d` on separate lines.",
+            "notes": "Read `notes/feedback-review-panel-immediate-f6b72d7d.txt` and inspected its bytes; it contains `FIXED-f6b72d7d` followed by `REVIEWED-f6b72d7d`, both newline-terminated. The requested clarity judgment is subjective and remains for a person.",
+            "humanOnly": {
+              "reason": "Whether the marker wording is clear is a subjective judgment.",
+              "action": "Read the file and record whether its wording is clear."
+            },
+            "limitation": "human",
+            "citations": [],
+            "recorded": {
+              "job": "lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/verification I_kwDOVUMJ0s8AAAABcmFv6w/1/4 35 0 0 07c90045c0ac17ace72dd622b3653d019992687d verify 0",
+              "attempt": 1
+            }
+          },
+          "location": null,
+          "execution": {
+            "job": "lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/verification I_kwDOVUMJ0s8AAAABcmFv6w/1/4 35 0 0 07c90045c0ac17ace72dd622b3653d019992687d verify 0",
+            "attempt": 1
+          },
+          "recorded": {
+            "job": "lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/verification I_kwDOVUMJ0s8AAAABcmFv6w/1/4 35 0 0 07c90045c0ac17ace72dd622b3653d019992687d verify 0",
+            "attempt": 1
+          },
+          "answer": null,
+          "stale": false
+        }
+      ],
+      "findings": [
+        {
+          "id": "immediate_one",
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "kind": "fix",
+          "title": "Update the marker",
+          "origin": "brief",
+          "state": "verified",
+          "commit": "07c90045c0ac17ace72dd622b3653d019992687d",
+          "answer": null,
+          "by": null
+        },
+        {
+          "id": "immediate_two",
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "kind": "fix",
+          "title": "Record the review",
+          "origin": "brief",
+          "state": "verified",
+          "commit": "07c90045c0ac17ace72dd622b3653d019992687d",
+          "answer": null,
+          "by": null
+        },
+        {
+          "id": "immediate_ignore",
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "kind": "fix",
+          "title": "Optional wording",
+          "origin": "brief",
+          "state": "answered",
+          "commit": null,
+          "answer": "ignore",
+          "by": "member"
+        },
+        {
+          "id": "V2",
+          "subject": "07c90045c0ac17ace72dd622b3653d019992687d/checks/lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/verification I_kwDOVUMJ0s8AAAABcmFv6w/1/4 35 0 0 07c90045c0ac17ace72dd622b3653d019992687d verify 0/1",
+          "kind": "human_check",
+          "title": "Judge whether the marker wording is clear",
+          "origin": "check",
+          "state": "open",
+          "commit": null,
+          "answer": null,
+          "by": null
+        }
+      ],
+      "previous": [
+        {
+          "item": "immediate_ignore",
+          "kind": "fix",
+          "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+          "value": "ignore",
+          "note": null,
+          "actor": "member",
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "command": "49b070b8-d173-4202-902c-17afe76698e2",
+          "via": "page",
+          "at": 1793838273636,
+          "judged": {
+            "pr": 1466,
+            "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+            "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+            "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+            "execution": null,
+            "source": {
+              "pr": 1466,
+              "id": "immediate_ignore",
+              "kind": "fix",
+              "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+              "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+              "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+              "title": "Optional wording",
+              "body": "Do not implement this optional wording change.",
+              "source": {
+                "id": "immediate_ignore",
+                "title": "Optional wording",
+                "body": "A deliberate ignored fixture.",
+                "draft": "Do not implement this optional wording change.",
+                "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48",
+                "classification": "fix",
+                "nature": "bug",
+                "certainty": "Sure",
+                "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+                "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+                "content": {
+                  "comment": "Do not implement this optional wording change.",
+                  "location": {
+                    "kind": "inline",
+                    "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                    "line": 1,
+                    "side": "RIGHT",
+                    "reason": null
+                  }
+                }
+              },
+              "location": null,
+              "execution": null,
+              "recorded": null
+            },
+            "plan": null
+          },
+          "stale": true
+        },
+        {
+          "item": "immediate_one",
+          "kind": "fix",
+          "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+          "value": "add_to_review",
+          "note": null,
+          "actor": "member",
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "command": "c83d58df-653e-4ecf-850c-a7fa54b77fba",
+          "via": "page",
+          "at": 1793838266790,
+          "judged": {
+            "pr": 1466,
+            "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+            "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+            "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+            "execution": null,
+            "source": {
+              "pr": 1466,
+              "id": "immediate_one",
+              "kind": "fix",
+              "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+              "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+              "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+              "title": "Update the marker",
+              "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+              "source": {
+                "id": "immediate_one",
+                "title": "Update the marker",
+                "body": "The marker needs its requested revision.",
+                "draft": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+                "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+                "classification": "fix",
+                "nature": "bug",
+                "certainty": "Sure",
+                "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+                "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+                "content": {
+                  "comment": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+                  "location": {
+                    "kind": "inline",
+                    "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                    "line": 1,
+                    "side": "RIGHT",
+                    "reason": null
+                  }
+                }
+              },
+              "location": null,
+              "execution": null,
+              "recorded": null
+            },
+            "plan": null
+          },
+          "stale": true
+        },
+        {
+          "item": "immediate_two",
+          "kind": "fix",
+          "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+          "value": "add_to_review",
+          "note": null,
+          "actor": "member",
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "command": "7b1aef86-d393-4795-8dc4-be1fca9d3b06",
+          "via": "page",
+          "at": 1793838256670,
+          "judged": {
+            "pr": 1466,
+            "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+            "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+            "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+            "execution": null,
+            "source": {
+              "pr": 1466,
+              "id": "immediate_two",
+              "kind": "fix",
+              "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+              "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+              "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+              "title": "Record the review",
+              "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+              "source": {
+                "id": "immediate_two",
+                "title": "Record the review",
+                "body": "The marker needs its review line.",
+                "draft": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+                "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+                "classification": "fix",
+                "nature": "bug",
+                "certainty": "Sure",
+                "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+                "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+                "content": {
+                  "comment": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+                  "location": {
+                    "kind": "inline",
+                    "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                    "line": 1,
+                    "side": "RIGHT",
+                    "reason": null
+                  }
+                }
+              },
+              "location": null,
+              "execution": null,
+              "recorded": null
+            },
+            "plan": null
+          },
+          "stale": true
+        }
+      ],
+      "unanswered": [
+        {
+          "subject": "07c90045c0ac17ace72dd622b3653d019992687d/checks/lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/verification I_kwDOVUMJ0s8AAAABcmFv6w/1/4 35 0 0 07c90045c0ac17ace72dd622b3653d019992687d verify 0/1",
+          "id": "V2",
+          "title": "Judge whether the marker wording is clear",
+          "kind": "human_check"
+        }
+      ],
+      "counts": {
+        "failed_check": 0,
+        "fix": 0,
+        "human_check": 1,
+        "follow_up": 0,
+        "changes_pending": 0,
+        "checks_need_you": 1
+      },
+      "pendingRevision": "bb286015cb6dd8839f87199922dbe2028daeec5a48d0f95d86320153301c2459",
+      "firstUnanswered": {
+        "id": "V2",
+        "subject": "07c90045c0ac17ace72dd622b3653d019992687d/checks/lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/verification I_kwDOVUMJ0s8AAAABcmFv6w/1/4 35 0 0 07c90045c0ac17ace72dd622b3653d019992687d verify 0/1",
+        "title": "Judge whether the marker wording is clear",
+        "kind": "human_check"
+      },
+      "draftsComplete": true,
+      "drafts": [
+        {
+          "entry": {
+            "pr": 1466,
+            "id": "F1",
+            "kind": "follow_up",
+            "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/implementation I_kwDOVUMJ0s8AAAABcmFv6w/1/4 20 0 brief/1",
+            "digest": "89dff9c9825e4ce14c4d4af515e53132f33bfb0125f5783800b9a9e92d19f1cd",
+            "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+            "title": "Marker stewardship is still undocumented",
+            "body": "Document smoke marker stewardship\n\nDocument who maintains smoke markers, how marker formats are changed, and how compatibility expectations are handled.",
+            "source": {
+              "title": "Marker stewardship is still undocumented",
+              "certainty": "Sure",
+              "body": "The requested follow-up to document marker stewardship has not been completed in the team manual.\n\n**Why it matters:** Future contributors may lack guidance on maintaining this externally consumed marker format.\n\n**Can wait:** The issue explicitly puts this documentation outside the current change and asks for it as a separate follow-up.",
+              "notes": "The issue body requests “As a separate follow-up, document marker stewardship in the team manual; this documentation is outside this change.” The accepted preparation records the same item under `followUps` as “Document smoke marker stewardship.” The repository contains only a short fixture README and notes; no team manual is present in the supplied tree. This is an intentionally out-of-scope follow-up, not a defect in the marker addition.",
+              "location": "non-inline: The requested team-manual documentation is absent from this change, so there is no changed line to anchor.",
+              "classification": "follow_up",
+              "nature": "missed_requirement",
+              "draft": "Document smoke marker stewardship\n\nDocument who maintains smoke markers, how marker formats are changed, and how compatibility expectations are handled.",
+              "anchor": {
+                "kind": "non_inline",
+                "path": null,
+                "line": null,
+                "side": null,
+                "reason": "The requested team-manual documentation is absent from this change, so there is no changed line to anchor."
+              },
+              "id": "F1",
+              "digest": "89dff9c9825e4ce14c4d4af515e53132f33bfb0125f5783800b9a9e92d19f1cd",
+              "content": {
+                "title": "Document smoke marker stewardship",
+                "body": "Document who maintains smoke markers, how marker formats are changed, and how compatibility expectations are handled."
+              }
+            },
+            "location": {
+              "kind": "non_inline",
+              "path": null,
+              "line": null,
+              "side": null,
+              "reason": "The requested team-manual documentation is absent from this change, so there is no changed line to anchor."
+            },
+            "execution": null,
+            "recorded": null,
+            "answer": null,
+            "stale": false
+          },
+          "answer": null,
+          "source": {
+            "id": "cfeea6ed20fff7a3fd11158f04694f765853f1a4ed7e611dfe0f51e751e532a0",
+            "issueId": "I_kwDOVUMJ0s8AAAABcmFv6w",
+            "attempt": 1,
+            "stage": "pr_review",
+            "producer": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/implementation I_kwDOVUMJ0s8AAAABcmFv6w/1/4 20 0 brief/1",
+            "item": "F1",
+            "digest": "89dff9c9825e4ce14c4d4af515e53132f33bfb0125f5783800b9a9e92d19f1cd",
+            "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+            "pr": 1466,
+            "title": "Document smoke marker stewardship",
+            "body": "Document who maintains smoke markers, how marker formats are changed, and how compatibility expectations are handled.",
+            "content": {
+              "pr": 1466,
+              "id": "F1",
+              "kind": "follow_up",
+              "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/lifecycle-I_kwDOVUMJ0s8AAAABcmFv6w-1/implementation I_kwDOVUMJ0s8AAAABcmFv6w/1/4 20 0 brief/1",
+              "digest": "89dff9c9825e4ce14c4d4af515e53132f33bfb0125f5783800b9a9e92d19f1cd",
+              "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+              "title": "Marker stewardship is still undocumented",
+              "body": "Document smoke marker stewardship\n\nDocument who maintains smoke markers, how marker formats are changed, and how compatibility expectations are handled.",
+              "source": {
+                "title": "Marker stewardship is still undocumented",
+                "certainty": "Sure",
+                "body": "The requested follow-up to document marker stewardship has not been completed in the team manual.\n\n**Why it matters:** Future contributors may lack guidance on maintaining this externally consumed marker format.\n\n**Can wait:** The issue explicitly puts this documentation outside the current change and asks for it as a separate follow-up.",
+                "notes": "The issue body requests “As a separate follow-up, document marker stewardship in the team manual; this documentation is outside this change.” The accepted preparation records the same item under `followUps` as “Document smoke marker stewardship.” The repository contains only a short fixture README and notes; no team manual is present in the supplied tree. This is an intentionally out-of-scope follow-up, not a defect in the marker addition.",
+                "location": "non-inline: The requested team-manual documentation is absent from this change, so there is no changed line to anchor.",
+                "classification": "follow_up",
+                "nature": "missed_requirement",
+                "draft": "Document smoke marker stewardship\n\nDocument who maintains smoke markers, how marker formats are changed, and how compatibility expectations are handled.",
+                "anchor": {
+                  "kind": "non_inline",
+                  "path": null,
+                  "line": null,
+                  "side": null,
+                  "reason": "The requested team-manual documentation is absent from this change, so there is no changed line to anchor."
+                },
+                "id": "F1",
+                "digest": "89dff9c9825e4ce14c4d4af515e53132f33bfb0125f5783800b9a9e92d19f1cd",
+                "content": {
+                  "title": "Document smoke marker stewardship",
+                  "body": "Document who maintains smoke markers, how marker formats are changed, and how compatibility expectations are handled."
+                }
+              },
+              "location": {
+                "kind": "non_inline",
+                "path": null,
+                "line": null,
+                "side": null,
+                "reason": "The requested team-manual documentation is absent from this change, so there is no changed line to anchor."
+              },
+              "execution": null,
+              "recorded": null,
+              "answer": null,
+              "stale": false
+            }
+          },
+          "filed": false
+        }
+      ],
+      "draftSnapshot": "[[\"cfeea6ed20fff7a3fd11158f04694f765853f1a4ed7e611dfe0f51e751e532a0\",\"89dff9c9825e4ce14c4d4af515e53132f33bfb0125f5783800b9a9e92d19f1cd\",null,null]]",
+      "roundActive": false,
+      "feedbackPending": false,
+      "pending": [],
+      "retained": [],
+      "publications": [
+        {
+          "pr": 1466,
+          "id": "7b1aef86-d393-4795-8dc4-be1fca9d3b06",
+          "actor": "member",
+          "via": "page",
+          "revision": 1,
+          "entries": [
+            {
+              "id": "7b1aef86-d393-4795-8dc4-be1fca9d3b06",
+              "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+              "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+              "source": {
+                "pr": 1466,
+                "id": "immediate_two",
+                "kind": "fix",
+                "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+                "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+                "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+                "title": "Record the review",
+                "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+                "source": {
+                  "id": "immediate_two",
+                  "title": "Record the review",
+                  "body": "The marker needs its review line.",
+                  "draft": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+                  "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f",
+                  "classification": "fix",
+                  "nature": "bug",
+                  "certainty": "Sure",
+                  "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+                  "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+                  "content": {
+                    "comment": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marker; preserve all other lines.",
+                    "location": {
+                      "kind": "inline",
+                      "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                      "line": 1,
+                      "side": "RIGHT",
+                      "reason": null
+                    }
+                  }
+                },
+                "location": null,
+                "execution": null,
+                "recorded": null
+              },
+              "thread": null,
+              "inline": true,
+              "anchor": {
+                "base": "8268c8a2677c51ad2f659afbe9d9641a34f15856",
+                "diff": "3d3f33fba68b28e4b437b87a2cd8b804f94a8260349435e50641e32ed9d617d8",
+                "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                "line": 1,
+                "side": "RIGHT",
+                "provenance": {
+                  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+                  "promptHash": "fa1cc8867a7732a963012e5b155424caea8720cb069190edccee69a1aacd555a",
+                  "schemaVersion": "review-location-1"
+                }
+              },
+              "diagnostic": null,
+              "note": null
+            }
+          ],
+          "state": "submitted",
+          "command": "7b1aef86-d393-4795-8dc4-be1fca9d3b06-send",
+          "review": {
+            "id": "PRR_kwDOVUMJ0s8AAAABWGS1Kg",
+            "number": 5777962282
+          },
+          "receipts": [
+            {
+              "entry": "7b1aef86-d393-4795-8dc4-be1fca9d3b06",
+              "comment": "PRRC_kwDOVUMJ0s8AAAABCrwq3g",
+              "number": 4475071198,
+              "thread": "PRRT_kwDOVUMJ0s6z3d_F"
+            }
+          ],
+          "stale": true
+        },
+        {
+          "pr": 1466,
+          "id": "c83d58df-653e-4ecf-850c-a7fa54b77fba",
+          "actor": "member",
+          "via": "page",
+          "revision": 1,
+          "entries": [
+            {
+              "id": "c83d58df-653e-4ecf-850c-a7fa54b77fba",
+              "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+              "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+              "source": {
+                "pr": 1466,
+                "id": "immediate_one",
+                "kind": "fix",
+                "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+                "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+                "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+                "title": "Update the marker",
+                "body": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+                "source": {
+                  "id": "immediate_one",
+                  "title": "Update the marker",
+                  "body": "The marker needs its requested revision.",
+                  "draft": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+                  "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6",
+                  "classification": "fix",
+                  "nature": "bug",
+                  "certainty": "Sure",
+                  "notes": "Controlled findings at the fixture's actual verified head; native feedback execution is real.",
+                  "location": "notes/feedback-review-panel-immediate-f6b72d7d.txt:1",
+                  "content": {
+                    "comment": "In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all other lines.",
+                    "location": {
+                      "kind": "inline",
+                      "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                      "line": 1,
+                      "side": "RIGHT",
+                      "reason": null
+                    }
+                  }
+                },
+                "location": null,
+                "execution": null,
+                "recorded": null
+              },
+              "thread": null,
+              "inline": true,
+              "anchor": {
+                "base": "8268c8a2677c51ad2f659afbe9d9641a34f15856",
+                "diff": "3d3f33fba68b28e4b437b87a2cd8b804f94a8260349435e50641e32ed9d617d8",
+                "path": "notes/feedback-review-panel-immediate-f6b72d7d.txt",
+                "line": 1,
+                "side": "RIGHT",
+                "provenance": {
+                  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+                  "promptHash": "fa1cc8867a7732a963012e5b155424caea8720cb069190edccee69a1aacd555a",
+                  "schemaVersion": "review-location-1"
+                }
+              },
+              "diagnostic": null,
+              "note": null
+            }
+          ],
+          "state": "submitted",
+          "command": "c83d58df-653e-4ecf-850c-a7fa54b77fba-send",
+          "review": {
+            "id": "PRR_kwDOVUMJ0s8AAAABWGS7iA",
+            "number": 5777963912
+          },
+          "receipts": [
+            {
+              "entry": "c83d58df-653e-4ecf-850c-a7fa54b77fba",
+              "comment": "PRRC_kwDOVUMJ0s8AAAABCrwvbw",
+              "number": 4475072367,
+              "thread": "PRRT_kwDOVUMJ0s6z3eJN"
+            }
+          ],
+          "stale": true
+        }
+      ],
+      "privatePending": {
+        "batches": 0,
+        "comments": 0,
+        "publishing": 0
+      }
+    },
+    "planDrafts": [],
+    "planReview": {
+      "answers": [
+        {
+          "item": "D1",
+          "kind": "decision",
+          "digest": "28614716beefdaf16f5bc340bedc199bd9bb943e2d1e702b55b8b7a814122948",
+          "value": "agree",
+          "note": null,
+          "actor": "member"
+        }
+      ],
+      "unanswered": [],
+      "counts": {
+        "prerequisite": 0,
+        "decision": 0,
+        "out_of_scope": 0
+      },
+      "running": false,
+      "draftConfirmation": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "currentPreparation": "I_kwDOVUMJ0s8AAAABcmFv6w/1/1",
+    "revision": 45,
+    "phase": "in_review",
+    "mode": "agent",
+    "waitReason": "review_decision",
+    "outcome": null,
+    "owner": "member",
+    "pullRequest": {
+      "number": 1466,
+      "head": "07c90045c0ac17ace72dd622b3653d019992687d"
+    },
+    "mergeError": null,
+    "stopping": false,
+    "takeover": null,
+    "workspace": {
+      "id": "leandev-sandbox/otto-environment-fixture/1465/1",
+      "environment": "smoke-f6b72d7d",
+      "base": "8268c8a2677c51ad2f659afbe9d9641a34f15856",
+      "attempt": 1,
+      "ready": true,
+      "manual": null
+    },
+    "shelf": null
+  },
+  "cleanup": "just smoke-lifecycle cleanup f6b72d7d"
+}

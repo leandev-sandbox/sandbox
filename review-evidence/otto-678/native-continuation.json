@@ -1,0 +1,337 @@
+{
+  "smoke": "f6b72d7d",
+  "method": "Continue the retained native page after the remote CDP client timed out; same UI actions and assertions as review-panel-immediate",
+  "startedAt": "2026-11-05T00:32:17.003Z",
+  "checks": [
+    {
+      "name": "same document as connected Discuss screenshots",
+      "pass": true
+    },
+    {
+      "name": "terminal node retained",
+      "pass": true
+    },
+    {
+      "name": "both findings verified at the pushed head",
+      "pass": true
+    },
+    {
+      "name": "observed Cuy fixing",
+      "pass": true
+    },
+    {
+      "name": "observed Fixed in",
+      "pass": true
+    },
+    {
+      "name": "observed Verified",
+      "pass": true
+    },
+    {
+      "name": "Feed contains comment",
+      "pass": true
+    },
+    {
+      "name": "Feed contains round",
+      "pass": true
+    },
+    {
+      "name": "Feed contains push",
+      "pass": true
+    },
+    {
+      "name": "Feed contains reply",
+      "pass": true
+    },
+    {
+      "name": "Feed contains passed",
+      "pass": true
+    },
+    {
+      "name": "Feed rows append once in order",
+      "pass": true
+    },
+    {
+      "name": "Feed includes the conversation comment",
+      "pass": true
+    },
+    {
+      "name": "Feed includes the review body",
+      "pass": true
+    },
+    {
+      "name": "owner page Re-verify applied",
+      "pass": true,
+      "detail": {
+        "commandId": "af6cf6be-e22c-490f-8bde-5d037194763e",
+        "action": "reverify",
+        "outcome": "applied",
+        "reason": null
+      }
+    },
+    {
+      "name": "1920px no sideways scroll",
+      "pass": true
+    },
+    {
+      "name": "1440px no sideways scroll",
+      "pass": true
+    },
+    {
+      "name": "1280px no sideways scroll",
+      "pass": true
+    },
+    {
+      "name": "390px no sideways scroll",
+      "pass": true
+    },
+    {
+      "name": "same document after Re-verify",
+      "pass": true
+    }
+  ],
+  "before": {
+    "timeOrigin": 1793838221954.4,
+    "head": "07c90045c0ac17ace72dd622b3653d019992687d",
+    "phase": "verifying",
+    "terminalRetained": true,
+    "states": [
+      {
+        "at": 1793838224401,
+        "text": "[\"Bug · confirmed · immediate_one\",\"Bug · confirmed · immediate_two\"]"
+      },
+      {
+        "at": 1793838267602,
+        "text": "[\"Bug · confirmed · immediate_one\",\"Bug · confirmed · immediate_two · Comment posted\"]"
+      },
+      {
+        "at": 1793838276202,
+        "text": "[\"Bug · confirmed · immediate_one · Cuy fixing\",\"Bug · confirmed · immediate_two · Cuy fixing\"]"
+      },
+      {
+        "at": 1793838387088,
+        "text": "[\"Bug · confirmed · immediate_one · Fixed in 07c9004\",\"Bug · confirmed · immediate_two · Fixed in 07c9004\"]"
+      },
+      {
+        "at": 1793838434811,
+        "text": "[\"Bug · confirmed · immediate_one · Verified · fixed in 07c9004\",\"Bug · confirmed · immediate_two · Verified · fixed in 07c9004\"]"
+      }
+    ],
+    "verified": true,
+    "events": [
+      {
+        "seq": 53,
+        "kind": "passed",
+        "text": "07:19 PM✓V1 passed at 0a2986c"
+      },
+      {
+        "seq": 54,
+        "kind": "comment",
+        "text": "07:24 PM💬@member commented requesting changes: “Requested by @otto-dev-user via page.”GitHub ↗"
+      },
+      {
+        "seq": 55,
+        "kind": "comment",
+        "text": "07:24 PM💬@member commented on notes/feedback-review-panel-immediate-f6b72d7d.txt: “In notes/feedback-review-panel-immediate-f6b72d7d.txt, append exactly REVIEWED-f6b72d7d on its own line after the marke…”GitHub ↗"
+      },
+      {
+        "seq": 56,
+        "kind": "comment",
+        "text": "07:24 PM💬@member commented requesting changes: “Requested by @otto-dev-user via page.”GitHub ↗"
+      },
+      {
+        "seq": 57,
+        "kind": "comment",
+        "text": "07:24 PM💬@member commented on notes/feedback-review-panel-immediate-f6b72d7d.txt: “In notes/feedback-review-panel-immediate-f6b72d7d.txt, replace ORIGINAL-f6b72d7d with FIXED-f6b72d7d; preserve all othe…”GitHub ↗"
+      },
+      {
+        "seq": 58,
+        "kind": "round",
+        "text": "07:24 PM⟳Cuy started on 4 comments"
+      },
+      {
+        "seq": 59,
+        "kind": "comment",
+        "text": "07:24 PM💬@otto-dev-user commented in the conversation: “Smoke f6b72d7d: acknowledge this conversation comment briefly; change nothing for it.”GitHub ↗"
+      },
+      {
+        "seq": 60,
+        "kind": "comment",
+        "text": "07:24 PM💬@otto-dev-user commented in a review: “Smoke f6b72d7d: review-body acknowledgement only; change nothing for this comment.”GitHub ↗"
+      },
+      {
+        "seq": 61,
+        "kind": "joined",
+        "text": "07:24 PM+Cuy took a comment into the round it is working on: “Smoke f6b72d7d: acknowledge this conversation comment briefly; change nothing for it.”GitHub ↗"
+      },
+      {
+        "seq": 62,
+        "kind": "joined",
+        "text": "07:24 PM+Cuy took a comment into the round it is working on: “Smoke f6b72d7d: review-body acknowledgement only; change nothing for this comment.”GitHub ↗"
+      },
+      {
+        "seq": 63,
+        "kind": "reply",
+        "text": "07:25 PM↩Cuy answered @member: “This review body records the request attribution for the note update. The requested note change is complete; `git diff …”GitHub ↗"
+      },
+      {
+        "seq": 64,
+        "kind": "reply",
+        "text": "07:25 PM↩Cuy answered @member: “This review body records the request attribution for the note update. The requested note change is complete; `git diff …”GitHub ↗"
+      },
+      {
+        "seq": 65,
+        "kind": "reply",
+        "text": "07:25 PM↩Cuy answered @otto-dev-user: “Acknowledged the conversation comment briefly; no change was requested or made for it.”GitHub ↗"
+      },
+      {
+        "seq": 66,
+        "kind": "reply",
+        "text": "07:25 PM↩Cuy answered @otto-dev-user: “Acknowledged this review-body comment; no change was requested or made for it.”GitHub ↗"
+      },
+      {
+        "seq": 67,
+        "kind": "reply",
+        "text": "07:26 PM↩Cuy fixed @member's comment in 07c9004: “Replaced `ORIGINAL-f6b72d7d` with `FIXED-f6b72d7d` and added `REVIEWED-f6b72d7d` on the following line, satisfying both…”GitHub ↗"
+      },
+      {
+        "seq": 68,
+        "kind": "resolved",
+        "text": "07:26 PM·immediate_two fixed in 07c9004GitHub ↗"
+      },
+      {
+        "seq": 69,
+        "kind": "push",
+        "text": "07:26 PM↑@otto-dev-user pushed 07c9004Commit ↗"
+      },
+      {
+        "seq": 70,
+        "kind": "reply",
+        "text": "07:26 PM↩Cuy fixed @member's comment in 07c9004: “Replaced `ORIGINAL-f6b72d7d` with `FIXED-f6b72d7d` while preserving the requested added review marker on the next line.…”GitHub ↗"
+      },
+      {
+        "seq": 71,
+        "kind": "resolved",
+        "text": "07:26 PM·immediate_one fixed in 07c9004GitHub ↗"
+      },
+      {
+        "seq": 72,
+        "kind": "passed",
+        "text": "07:27 PM✓V1 passed at 07c9004"
+      }
+    ],
+    "commands": [
+      {
+        "version": "28",
+        "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+        "action": "answer",
+        "item": "immediate_one",
+        "value": "add_to_review",
+        "review": {
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6"
+        },
+        "commandId": "c83d58df-653e-4ecf-850c-a7fa54b77fba"
+      },
+      {
+        "version": "28",
+        "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+        "action": "answer",
+        "item": "immediate_two",
+        "value": "add_to_review",
+        "review": {
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f"
+        },
+        "commandId": "7b1aef86-d393-4795-8dc4-be1fca9d3b06"
+      },
+      {
+        "version": "28",
+        "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+        "action": "answer",
+        "item": "immediate_ignore",
+        "value": "ignore",
+        "review": {
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48"
+        },
+        "commandId": "49b070b8-d173-4202-902c-17afe76698e2"
+      },
+      {
+        "version": "45",
+        "head": "07c90045c0ac17ace72dd622b3653d019992687d",
+        "action": "reverify",
+        "commandId": "af6cf6be-e22c-490f-8bde-5d037194763e"
+      }
+    ]
+  },
+  "reverifyCommand": {
+    "version": "45",
+    "head": "07c90045c0ac17ace72dd622b3653d019992687d",
+    "action": "reverify",
+    "commandId": "af6cf6be-e22c-490f-8bde-5d037194763e"
+  },
+  "receipt": {
+    "commandId": "af6cf6be-e22c-490f-8bde-5d037194763e",
+    "action": "reverify",
+    "outcome": "applied",
+    "reason": null
+  },
+  "after": {
+    "head": "07c90045c0ac17ace72dd622b3653d019992687d",
+    "phase": "verifying",
+    "commands": [
+      {
+        "version": "28",
+        "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+        "action": "answer",
+        "item": "immediate_one",
+        "value": "add_to_review",
+        "review": {
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "digest": "df2834a1f8ad22d12eba7ba613851bbf48bd039208039149dec6f9f0f28729d6"
+        },
+        "commandId": "c83d58df-653e-4ecf-850c-a7fa54b77fba"
+      },
+      {
+        "version": "28",
+        "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+        "action": "answer",
+        "item": "immediate_two",
+        "value": "add_to_review",
+        "review": {
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "digest": "7550d52820458263556ae167942f528dee13c7b7324e66933db4e1695e82301f"
+        },
+        "commandId": "7b1aef86-d393-4795-8dc4-be1fca9d3b06"
+      },
+      {
+        "version": "28",
+        "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+        "action": "answer",
+        "item": "immediate_ignore",
+        "value": "ignore",
+        "review": {
+          "subject": "0a2986ca2e8e6e429398620cddedb003530eea79/brief/f6b72d7d/immediate-brief/1",
+          "digest": "b8961b36918ac811c20ad5b3cd170903994327c3aac248711b37ecde6c66eb48"
+        },
+        "commandId": "49b070b8-d173-4202-902c-17afe76698e2"
+      },
+      {
+        "version": "45",
+        "head": "07c90045c0ac17ace72dd622b3653d019992687d",
+        "action": "reverify",
+        "commandId": "af6cf6be-e22c-490f-8bde-5d037194763e"
+      }
+    ]
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.80",
+    "revision": "@fb096c0011f9d50f0a264a9376420cdea9c421e3",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75.27"
+  },
+  "passed": true,
+  "finishedAt": "2026-11-05T00:32:47.974Z"
+}

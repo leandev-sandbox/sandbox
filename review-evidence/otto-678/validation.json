@@ -1,0 +1,90 @@
+{
+  "issue": 678,
+  "pr": 723,
+  "finalHead": "945af308a6266fc38fa8f54163e89241b5c98aa8",
+  "finalBase": "17740a7",
+  "taskRuntimeBase": "456568d4a27f698cfb7f5fbeea2f90bb98c73b87",
+  "finalOverlayHashes": {
+    "adapters/cloudflare.test.ts": "1601d205465da3d4323cf35fb5cb57837a7d3e2bfae24a86286d4469663fa317",
+    "adapters/cloudflare.ts": "3b380c2158a729daa106372bfba9b93120a93e91b110c52ad99933c8f5be7bcc",
+    "adapters/lifecycle-smoke.ts": "1dd00cb881903a7f2dbc4a6e7e85e73020a03912bf88eb48ee43fea9cccaa896",
+    "adapters/page-smoke.ts": "868b825f584399857c186da1ff23984de2a7e719cf251857de40402d72560d65",
+    "adapters/pr-review-smoke.ts": "282981a80e841b407906594cf8761843fc37c131f16962f57ddef4f9fd1f2689",
+    "docs/api.md": "d3bc0451104e0fc678e1611578b7126257d86eb35864397a2d03f317023cc146",
+    "docs/processes/development/architecture.md": "ac2b663907cf8dde41ad1c33c86ada233f6cffe2d663df5cf1e75f8cc41bba26",
+    "docs/verification.md": "25f25e6e7296733508e6333cc505ab714be6c88deb5c88d2469c152c61ed92b3",
+    "engine/agent.ts": "39a5f2a9ab7a2824a89a0541fc726f1c5dd75aa3b7d9233c0480a3373ddfd300",
+    "processes/development/control-plane/commands.ts": "e37ca7955e7dd38ea04788b7058df60885a76f24645c49019ec5adcee11bd2d9",
+    "processes/development/control-plane/discuss.test.ts": "9fe10d845d51afb16e7044a0080818af357619b053308f65bfb71d70270cefbe",
+    "processes/development/control-plane/discuss.ts": "fe05d268f09634359dfe80c4fae1ee7098f3a565dc78060a33736ac714be6d96",
+    "processes/development/control-plane/drafts.test.ts": "0333d4969c01361abdb2b596eb51041c82a0db643696c0f1cb22598aa8b6faff",
+    "processes/development/control-plane/drafts.ts": "2adf0466733cc5a69e5980527f03e44db9e44642e104fff8102156f0068251d1",
+    "processes/development/control-plane/follow.ts": "1dd5a2b4ee631f464a2da3b97bbb47f63e02888161581e8f1110d648ac4d6222",
+    "processes/development/control-plane/index.test.ts": "cb42275c3c83038cc9f7336a46caa7b448f69ef8af8a403cdcac538dfee466cc",
+    "processes/development/control-plane/index.ts": "265606351e809c34eabe46010df2c8041feabeb67c388ed2f2a4c002333566cf",
+    "processes/development/control-plane/pages.test.ts": "1e9e4c3968de812f18f62107b08b46291f127bec31a75b034edb8e97ac7e7091",
+    "processes/development/control-plane/pages.ts": "2af1114bf16f205784e1e450bcdbb3bb57c9af4874eb24ca1853c1808294aeea",
+    "processes/development/control-plane/review.ts": "c7d28e629357ab5195d9f283332fd58de6764ab35b4877135cfd1cfb6d4e23bc",
+    "processes/development/environment/index.test.ts": "75b57d31012dea2812a36d01c1df2942ec90227aded2c47b4bffdb4a82f9fc2c",
+    "processes/development/environment/index.ts": "b5e173baf35b45ccb0fdcd60602065bb8ba4786bab075d85eebd508f763eb61e",
+    "processes/development/environment/jobs.ts": "08415b2eef7ffff9e0108c0dfbf30883fe2d15a2e507ff308026b570ebc68ec5",
+    "processes/development/lifecycle/approval.test.ts": "098c2fbd78f1b30bfa063cbb4a9fc87c751bfd9827bcb730417e267e7298aa23",
+    "processes/development/lifecycle/discussion-actions.ts": "1308d9ea9dde4d87d078ff90a30ebd840364342780617520785bbab96cf56a17",
+    "processes/development/lifecycle/feedback.ts": "6984206e951154057376090bb99620e2809df334c202277b3b5d001fdd3a0612",
+    "processes/development/lifecycle/handoff.test.ts": "e78ecf467bba32ccc6c5542c238f4625be15c432002a5fac7d42a0884bf9fe76",
+    "processes/development/lifecycle/handoff.ts": "9708c4cbab263153d81c6130d229dd6156926856f946721ac2c10e62376f98dd",
+    "processes/development/lifecycle/implementation.test.ts": "946f3946f36b1df25153aeedc2b38f5c5e7dbb4b4d00a8a977708f6ba10b720f",
+    "processes/development/lifecycle/implementation.ts": "8e30af3da37f2e8f1aff09eaab382749b369b00d301e78c39ac8fe44b6ffd747",
+    "processes/development/lifecycle/recovery.test.ts": "c0cf2cbfde1fa81d0df51021f16a7c6c81648d856b3442a8eb976584efa6eec4",
+    "processes/development/lifecycle/recovery.ts": "96867eee6267bb9939da062bc06925c59caba235bb7c4f2df509c48511ea1a1a",
+    "processes/development/lifecycle/review.test.ts": "eb760e22e618c0e4d7b01a9810bc05af36639d655c2507f3dab84206f413088d",
+    "processes/development/lifecycle/steps.ts": "a5693478ba18f84646038935699499dd6002f56b4da9fe8164d7ec31d0fcf62b",
+    "processes/development/lifecycle/verification.ts": "d6efd09020ce9bbc6b84ae8d7dcc9250f80cdc107efc140feefeac5a67817c86",
+    "processes/development/model.ts": "618f5dba359f118b738da9c31a7283f59f73134523ceae15c737f6617e9d2e47",
+    "processes/development/nightly/index.test.ts": "9eb9f442138e62d50812d832334933e003fae27b3a1fad3367f7d344ef57f693",
+    "processes/development/nightly/index.ts": "30993bfe0235c186e04ea5b6f92ad1bb86332438efd93bbe922bfc44ae0f0e65",
+    "processes/development/prompts/address-feedback.md": "d7926f72027352c2cfb00e4bc83c705a97fd078e6861f439d239784a8f53e28b",
+    "processes/development/prompts/qa-nightly.md": "fa16e6f43aa5d943d68f113fb6ea62b7d251affdd516590131cdc9052df32421",
+    "processes/development/prompts/qa-pr.md": "3775f5f29e993e95883bb9428d2cf62d7d5b94752b22274437b83ee7db932088",
+    "processes/development/prompts/review-implementation.md": "da4d2aabc60bc8fa6cd73e8feef350a6cabf68854e39876d35131047516b6f8e",
+    "processes/development/prompts/verification-plan.md": "cd0b57a6e42604177d9607e0857c4eb32c576ba0c9f81203d21446763f6e74b3",
+    "processes/development/qa/index.test.ts": "0b7f6dfa3324ff93b43abdb2b0b748fc396a7da23d020be2b863d89a88c75d76",
+    "processes/development/qa/index.ts": "fb9d9efdc95e963d96f2bdd01f4abc6701315cf71fc0ac3e7055165654f18b0c",
+    "processes/development/runner/jobs.test.ts": "1e9982133058e09303441f34a70e9ac0f49baa24405fb560f200a3b959fe2d70",
+    "processes/development/runner/jobs.ts": "6b2720ff00df3c7916dd0ac9c5bcc111c3ada7914bbc26f839b2f529efe5abf5",
+    "processes/development/runner/sessions.ts": "8e9d3c5ce393357dbdce2287f9f2a166143679010d01bcb48f360cf391a94e93"
+  },
+  "initialNativeHead": "f77dbf39a77f3c7a973b9dd00e15a62c8e8f44f1",
+  "nativeSmoke": "f6b72d7d",
+  "finalPageSmoke": "pgsb0e39466",
+  "feature": "ghcr.io/leandev-ai/otto-features/agents@sha256:86bc866dd6f36fc9e382ad4bc064df3db418ac8fab92683c24e9cd7263123958",
+  "ci": {
+    "run": 41942819958,
+    "tests": 2766,
+    "failed": 0,
+    "files": 137
+  },
+  "nativeObservation": "Remote CDP client timed out after the real push; the retained document and its existing state observer were read locally to complete assertions. native-continuation.json verifies the same performance.timeOrigin as the connected-terminal screenshots. Final-source page Re-verify was applied and completed under protocol 46; before/after records verify unchanged head and brief hash plus a fresh request.",
+  "limits": [
+    "Chromium viewport emulation, not physical phone hardware.",
+    "Native fixing ran before integration of main commits 8e33044, b71c8b4 and 17740a7; the combined source reran the page cases and performed live owner Re-verify.",
+    "The accepted fixture plan checks the original marker. Re-verify after the requested marker change reports that check failed and leaves the human check unanswered; completion/current evidence is not a passing merge verdict.",
+    "Native roles use subscription seats with paid fallback disabled; no billing charge is inferred."
+  ],
+  "cleanup": {
+    "native": "cleanup pump: skipped 0 deliveries\nreverted justfile\nreverted .gitignore\nremoved 1 containers\nremoved 0 feedback reactions and 10 comments\n\u2713 its rows are gone\n\u2713 its issues are closed\n",
+    "pages": "verification cleanup pgsb0e39466: 8 objects, execution rows and outbox deleted\n\u2713 cleanup: throwaway GitHub subjects closed; local rows, sessions and attention deleted\n",
+    "terminalRoutes": [
+      {
+        "port": 9579,
+        "socket": "/run/otto-previews/1001/terminal-4aa9979eb6c7c1b4-write.sock"
+      },
+      {
+        "port": 9479,
+        "socket": "/run/otto-previews/1001/terminal-4aa9979eb6c7c1b4-watch.sock"
+      }
+    ],
+    "deliveryProject": "deleted leandev-sandbox project 175, this checkout's Delivery\n",
+    "priorFixtures": "pgs42a35105, pgs51bc8aeb, 5acb4782, 1e508adc and 8e82fed6 cleaned; their journals/logs retained locally"
+  }
+}

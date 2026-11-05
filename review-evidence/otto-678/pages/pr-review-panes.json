@@ -1,0 +1,274 @@
+{
+  "case": "pr-review-panes",
+  "source": "seeded local presentation fixture; no provider invoked",
+  "head": "ae57f306228ff7b076eaa9353202a7cddc135ea5",
+  "job": "pgsb0e39466-verification/verify",
+  "startedAt": 1793839436670,
+  "sourceRevision": "456568d4a27f698cfb7f5fbeea2f90bb98c73b87",
+  "overlays": {
+    "adapters/cloudflare.ts": "3b380c2158a729daa106372bfba9b93120a93e91b110c52ad99933c8f5be7bcc",
+    "adapters/pr-review-smoke.ts": "282981a80e841b407906594cf8761843fc37c131f16962f57ddef4f9fd1f2689",
+    "adapters/verification-smoke.ts": "d806be908e19ab45ffcae50a05bbb61e1c3db6aee16a538ee32c0a081ae3bd12",
+    "processes/development/model.ts": "618f5dba359f118b738da9c31a7283f59f73134523ceae15c737f6617e9d2e47",
+    "processes/development/control-plane/index.ts": "265606351e809c34eabe46010df2c8041feabeb67c388ed2f2a4c002333566cf",
+    "processes/development/control-plane/markdown.ts": "99d326140206921cd725f483a8e14357c63d23b7248d6ae8ebe42976003c0455",
+    "migrations/development/0020_markdown.sql": "e3f463ff5b084b32e86d7729ca5be840d8b68fe5d50ab8606533a0aa572f1e88",
+    "processes/development/control-plane/pages.ts": "2af1114bf16f205784e1e450bcdbb3bb57c9af4874eb24ca1853c1808294aeea",
+    "processes/development/control-plane/commands.ts": "e37ca7955e7dd38ea04788b7058df60885a76f24645c49019ec5adcee11bd2d9",
+    "processes/development/control-plane/drafts.ts": "2adf0466733cc5a69e5980527f03e44db9e44642e104fff8102156f0068251d1",
+    "processes/development/control-plane/review.ts": "c7d28e629357ab5195d9f283332fd58de6764ab35b4877135cfd1cfb6d4e23bc",
+    "processes/development/control-plane/discuss.ts": "fe05d268f09634359dfe80c4fae1ee7098f3a565dc78060a33736ac714be6d96",
+    "processes/development/evidence/index.ts": "5bd3b1c972e6bb1b5000c5da0990f4bdf02d4e9fc030d33b843ac5a184d6a332",
+    "processes/development/environment/discussions.ts": "8992b1b41beb804480fc2fe961886d7051e1a3bf2683813ef54941aa8c6fc384",
+    "processes/development/environment/sessions.ts": "25338a5816172be87f311f2ba15ea827125d5ba8bb9f6b7ec1fa6e818f151a82",
+    "processes/development/lifecycle/discussion.ts": "18e37626463d8e7174e069b0e3b67595baf37ac5c194fb18b685d64da10408e1",
+    "processes/development/lifecycle/review.ts": "b0620e80145ca66232e283257f7c92b256d4b132ea7fd8db5da1f6319270cc37",
+    "processes/development/lifecycle/steps.ts": "a5693478ba18f84646038935699499dd6002f56b4da9fe8164d7ec31d0fcf62b"
+  },
+  "screenshots": [
+    "pr-review-panes-1920.png",
+    "pr-review-panes-1440.png",
+    "pr-review-panes-1280.png",
+    "pr-review-panes-390.png"
+  ],
+  "pushedHead": "42b457cd1ad0175b06ccb3c835d251c71e2e0367",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.4",
+    "revision": "@f842f52ef39fd97b449eb27cff414bf05a98ddce",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75"
+  },
+  "proof": "Real local Worker/D1, GitHub head push, browser reconciliation and seeded resolution event; native feedback/verification belongs to review-panel-immediate.",
+  "finishedAt": 1793839448435,
+  "assertions": [
+    {
+      "label": "pr-review-panes: 1920px viewport scrolls only inside panes",
+      "ok": true,
+      "detail": {
+        "findings": [
+          20,
+          379.984375,
+          605.890625,
+          508.015625
+        ],
+        "discuss": [
+          641.890625,
+          379.984375,
+          727.078125,
+          508.015625
+        ],
+        "feed": [
+          1384.96875,
+          379.984375,
+          515.015625,
+          508.015625
+        ],
+        "page": 900,
+        "overflow": false
+      }
+    },
+    {
+      "label": "pr-review-panes: 1920px three panes side by side",
+      "ok": true,
+      "detail": {
+        "findings": [
+          20,
+          379.984375,
+          605.890625,
+          508.015625
+        ],
+        "discuss": [
+          641.890625,
+          379.984375,
+          727.078125,
+          508.015625
+        ],
+        "feed": [
+          1384.96875,
+          379.984375,
+          515.015625,
+          508.015625
+        ],
+        "page": 900,
+        "overflow": false
+      }
+    },
+    {
+      "label": "pr-review-panes: 1440px viewport scrolls only inside panes",
+      "ok": true,
+      "detail": {
+        "findings": [
+          20,
+          379.984375,
+          388.09375,
+          508.015625
+        ],
+        "discuss": [
+          424.09375,
+          379.984375,
+          650,
+          508.015625
+        ],
+        "feed": [
+          1090.09375,
+          379.984375,
+          329.890625,
+          508.015625
+        ],
+        "page": 900,
+        "overflow": false
+      }
+    },
+    {
+      "label": "pr-review-panes: 1440px three panes side by side",
+      "ok": true,
+      "detail": {
+        "findings": [
+          20,
+          379.984375,
+          388.09375,
+          508.015625
+        ],
+        "discuss": [
+          424.09375,
+          379.984375,
+          650,
+          508.015625
+        ],
+        "feed": [
+          1090.09375,
+          379.984375,
+          329.890625,
+          508.015625
+        ],
+        "page": 900,
+        "overflow": false
+      }
+    },
+    {
+      "label": "pr-review-panes: 1280px viewport scrolls only inside panes",
+      "ok": true,
+      "detail": {
+        "findings": [
+          20,
+          379.984375,
+          532.171875,
+          508.015625
+        ],
+        "discuss": [
+          568.171875,
+          568.1875,
+          691.828125,
+          319.8125
+        ],
+        "feed": [
+          568.171875,
+          379.984375,
+          691.828125,
+          172.203125
+        ],
+        "page": 900,
+        "overflow": false
+      }
+    },
+    {
+      "label": "pr-review-panes: feed above Discuss",
+      "ok": true,
+      "detail": {
+        "findings": [
+          20,
+          379.984375,
+          532.171875,
+          508.015625
+        ],
+        "discuss": [
+          568.171875,
+          568.1875,
+          691.828125,
+          319.8125
+        ],
+        "feed": [
+          568.171875,
+          379.984375,
+          691.828125,
+          172.203125
+        ],
+        "page": 900,
+        "overflow": false
+      }
+    },
+    {
+      "label": "pr-review-panes: 390px viewport scrolls only inside panes",
+      "ok": true,
+      "detail": {
+        "findings": [
+          14,
+          499.234375,
+          362,
+          280.765625
+        ],
+        "discuss": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "feed": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "page": 900,
+        "overflow": false
+      }
+    },
+    {
+      "label": "pr-review-panes: phone shows only discuss",
+      "ok": true
+    },
+    {
+      "label": "pr-review-panes: phone shows only feed",
+      "ok": true
+    },
+    {
+      "label": "pr-review-panes: phone shows only findings",
+      "ok": true
+    },
+    {
+      "label": "pr-review-panes: seeing Feed clears its badge",
+      "ok": true
+    },
+    {
+      "label": "pr-review-panes: Discuss on a finding selects its phone tab",
+      "ok": true
+    },
+    {
+      "label": "pr-review-panes: open Re-verify menu has the live command binding",
+      "ok": true
+    },
+    {
+      "label": "pr-review-panes: stale evidence disables approval without replacing terminal or feed",
+      "ok": true
+    },
+    {
+      "label": "pr-review-panes: same document across every pane and head change",
+      "ok": true
+    },
+    {
+      "label": "pr-review-panes: original raw verification rows unchanged",
+      "ok": true
+    }
+  ],
+  "commands": [
+    {
+      "command_id": "discuss-16209724b77accf1de1d27dcca09e1c3",
+      "action": "discuss",
+      "actor": "member",
+      "via": "page",
+      "outcome": "rejected",
+      "reason": "The runner has not connected to this environment."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "at": "2026-11-05T00:23:50.145Z",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.80",
+    "revision": "@fb096c0011f9d50f0a264a9376420cdea9c421e3",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75.27"
+  },
+  "views": [
+    {
+      "width": 1920,
+      "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+      "timeOrigin": 1793838221954.4,
+      "connected": "true",
+      "overflow": false,
+      "terminalWidthPx": 707.078125
+    },
+    {
+      "width": 1440,
+      "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+      "timeOrigin": 1793838221954.4,
+      "connected": "true",
+      "overflow": false,
+      "terminalWidthPx": 630
+    },
+    {
+      "width": 1280,
+      "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+      "timeOrigin": 1793838221954.4,
+      "connected": "true",
+      "overflow": false,
+      "terminalWidthPx": 671.828125
+    },
+    {
+      "width": 390,
+      "head": "0a2986ca2e8e6e429398620cddedb003530eea79",
+      "timeOrigin": 1793838221954.4,
+      "connected": "true",
+      "overflow": false,
+      "terminalWidthPx": 318
+    }
+  ]
+}
