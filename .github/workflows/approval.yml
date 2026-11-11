@@ -1,0 +1,7 @@
+name: approval matrix
+on: [pull_request]
+jobs:
+  approval:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'true'
